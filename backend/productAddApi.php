@@ -3,9 +3,10 @@ include "../config/db.php";
 $product_name = $_POST['productName'];
 $product_price = $_POST['price'];
 $product_quantity = $_POST['quantity'];
-$product_image= $_POST['image'];
+$product_image= $_FILES['file'];
 
 $filename = $product_image['name'];
+
 $temp_name = $product_image['tmp_name'];
 $file = '../uploads/' . $filename;
 move_uploaded_file($temp_name, $file);

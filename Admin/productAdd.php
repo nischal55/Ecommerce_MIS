@@ -17,7 +17,7 @@
     <div class="main-container">
     <div class="container">
         <div class="card" id="login-card">
-            <form action="../backend/productAddApi.php" method="post" style="margin-left:1rem">
+            <form action="../backend/productAddApi.php" method="post" enctype="multipart/form-data" style="margin-left:1rem">
             <h3 class="login-head">Add Product</h3>
                 <label for="productName">Product Name:</label><br>
                 <input type="text" name="productName" id="username"><br><br>
@@ -26,7 +26,7 @@
                 <label for="quantity">Quantity:</label><br>
                 <input type="text" name="quantity" id="password"><br><br>
                 <label for="price">Product Image:</label><br>
-                <input type="file" name="image" id="password"><br><br>
+                <input type="file" name="file" id="password"><br><br>
                 <input type="submit" value="Add Product" class="btn btn-primary" id="login-btn">
             </form>
         </div>

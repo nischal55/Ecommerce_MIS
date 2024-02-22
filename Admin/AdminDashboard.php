@@ -11,7 +11,9 @@
     <?php 
     include '../components/AdminNav.php';
     ?>
-
+    <div class="main-container">
+      
+    </div>
     <?php
     include "../components/footer.php";
     ?>

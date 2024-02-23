@@ -8,9 +8,11 @@
     text-align: center;
     margin-top: 4rem;
 }
-#product-card{
+#product-card a{
     width: 20%;
     height: 18rem;
+    
+    
 }
 .footer{
     width: 100%;
@@ -19,6 +21,7 @@
     color: white;
     height: 8rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .social-media {
@@ -38,6 +41,7 @@
     width: 35%;
     color: rgb(104, 99, 99);
     box-shadow: 0px 1px 1px rgb(134, 134, 134);
+    
     
 }
 .login-head{
@@ -61,4 +65,14 @@
 }
 .main-container{
     height: 28.8rem;
+}
+#card-container{
+    width: 90%;
+}
+.desc-part{
+    text-align: center;
+    margin-top: 1rem;
+}
+.product-title{
+    font-size: 18px;
 }

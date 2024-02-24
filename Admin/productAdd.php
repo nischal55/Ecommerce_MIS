@@ -25,8 +25,14 @@
                 <input type="text" name="price" id="password"><br><br>
                 <label for="quantity">Quantity:</label><br>
                 <input type="text" name="quantity" id="password"><br><br>
+                <label for="category">Category:</label><br>
+                <select name="category" id="password">
+                    <option value="1">Select Category</option>
+                    <option value="cosmetics">Cosmetics</option>
+                    <option value="skinCare">Skin Care Products</option>
+                </select><br><br>
                 <label for="desc">Product Description:</label><br>
-                <textarea name="product-desc" id="" cols="45" rows="3"></textarea>
+                <textarea name="product-desc" id="" cols="52" rows="3"></textarea>
                 <label for="price">Product Image:</label><br>
                 <input type="file" name="file" id="password"><br><br>
                 <input type="submit" value="Add Product" class="btn btn-primary" id="login-btn">
@@ -34,7 +40,7 @@
         </div>
     </div>
     </div><br><br><br><br><br>
-    <br>
+    <br><br><br><br><br>
     <?php include "../components/footer.php" ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     

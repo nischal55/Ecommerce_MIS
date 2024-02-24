@@ -12,7 +12,7 @@
     <div class="container">
         
             <div class="card" id="login-card">
-                <form action="" method="post" style="margin-left:1rem">
+                <form action="backend/userLoginApi.php" method="post" style="margin-left:1rem">
                 <h3 class="login-head">User Sign</h3>
                     <label for="username">Username:</label><br>
                     <input type="text" name="username" id="username"><br><br>

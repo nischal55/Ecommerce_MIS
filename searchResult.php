@@ -25,12 +25,13 @@
   </center>
 
   <div class="container">
-    <h2 class="trending-products">Trending Products</h2>
+    <h2 class="trending-products">Search Results</h2>
     <div class="container mt-5 d-flex flex-wrap" id="card-container">
       <?php
       include "config/db.php";
-
-      $sql = "select * from product_details";
+      $searchTerm = $_POST['search'];
+      
+      $sql = "select * from product_details where product_name like'%$searchTerm%'";
       $result = mysqli_query($conn, $sql);
 
       while ($row = mysqli_fetch_assoc($result)) {

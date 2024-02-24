@@ -25,12 +25,12 @@
   </center>
 
   <div class="container">
-    <h2 class="trending-products">Trending Products</h2>
+    <h2 class="trending-products">Skin Care Products</h2>
     <div class="container mt-5 d-flex flex-wrap" id="card-container">
       <?php
       include "config/db.php";
 
-      $sql = "select * from product_details";
+      $sql = "select * from product_details where category='skinCare'";
       $result = mysqli_query($conn, $sql);
 
       while ($row = mysqli_fetch_assoc($result)) {

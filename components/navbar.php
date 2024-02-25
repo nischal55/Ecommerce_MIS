@@ -37,8 +37,8 @@
           </a>
           <ul class="dropdown-menu">
             
-            <li><a class="dropdown-item" href="#">My Orders</a></li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
+            <li><a class="dropdown-item" href="showOrder.php">My Orders</a></li>
+            <li><a class="dropdown-item" href="backend/logoutApi.php">Logout</a></li>
           </ul>
         </li>
       </ul>

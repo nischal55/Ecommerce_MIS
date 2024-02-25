@@ -57,7 +57,7 @@ if(isset($_SESSION['username'])){
                                 <?php echo($quantity) ?>
                             </td>
                             <td> Rs. <?php echo($total)  ?></td>
-                            <td><button class="btn btn-outline-danger">Remove</button></td>
+                            <td><button class="btn btn-outline-danger" onclick="window.location.href='backend/removeCart.php?product_id=<?php echo($product_id) ?>'">Remove</button></td>
                         </tr>
                     <?php
                     } ?>

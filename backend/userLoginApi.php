@@ -8,7 +8,7 @@ $sql = "select * from customer_details";
 $result = mysqli_query($conn,$sql);
 
 while($row=mysqli_fetch_assoc($result)){
-    $user_id = $row['user_id'];
+    $user_id = $row['customer_id'];
     $db_username = $row['username'];
     $db_password = $row['password'];
     

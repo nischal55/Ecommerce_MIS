@@ -76,3 +76,15 @@
 .product-title{
     font-size: 18px;
 }
+#qty{
+    width: 95%;
+    height: 2rem;
+}
+#total{
+    width: 95%;
+    height: 2rem;
+}
+#price{
+    width: 95%;
+    height: 2rem;
+}

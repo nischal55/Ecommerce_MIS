@@ -36,8 +36,9 @@
          <?php }?>
           </a>
           <ul class="dropdown-menu">
+            
+            <li><a class="dropdown-item" href="#">My Orders</a></li>
             <li><a class="dropdown-item" href="#">Logout</a></li>
-           
           </ul>
         </li>
       </ul>

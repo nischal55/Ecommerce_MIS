@@ -25,7 +25,7 @@ if (isset($_SESSION['username'])) {
         $result2 = mysqli_query($conn,$sql);
 
         if($result){
-            header('location:orderShow.php');
+            header('location:../showOrder.php');
         }
     }
 }

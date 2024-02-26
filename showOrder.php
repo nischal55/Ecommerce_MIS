@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['username'])){
     $user_id = $_SESSION['user_id'];
     include "config/db.php";
-    $query = "select * from order_details join product_details on order_details.product_id = product_details.product_id  where customer_id='$user_id' order by order_id desc limit 5";
+    $query = "select * from order_details join product_details on order_details.product_id = product_details.product_id  where customer_id='$user_id' order by order_id desc ";
 
     $query_result = mysqli_query($conn, $query);
     
